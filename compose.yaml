@@ -9,6 +9,7 @@ services:
       - WEBHOOK_URL=${EXTERNAL_IP}
       - N8N_DEFAULT_BINARY_DATA_MODE=filesystem
       - N8N_ENABLE_API=true
+      - N8N_TIMEZONE=Asia/Karachi
     ports:
       - "80:5678"
     volumes:
